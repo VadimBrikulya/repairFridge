@@ -55,26 +55,27 @@ a {
 .menu__list-link:focus {
   color: blue;
 }
-.logo__link {
-  outline: 1px solid red;
-}
-
-.menu__list,
-.hero {
+/* .header {
   display: flex;
-  /* user-select: none; */
+  align-items: center;
+} */
+.header .header__logo {
+  margin-right: 70px;
 }
 
 .menu {
   display: flex;
+  align-items: center;
+}
+.menu__item:not(:last-child) {
+  margin-right: 40px;
 }
 
 .menu__list {
-  /* justify-content: flex-end; */
+  display: flex;
 }
 
-.container__header {
-  display: flex;
-  justify-content: space-between;
+.header .address {
+  margin-left: auto;
 }
 /* ==========Секция why me=================== */
