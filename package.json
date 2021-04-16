@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "babel": "babel --presets es2015 main.js -o build/main.bundle.js",
-    "start": "http-server"
+    "start": "http-server",
+    "dev": "webpack --mode development"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,9 @@
     "http-server": "^0.12.3"
   },
   "devDependencies": {
-    "babel-preset-es2015": "^6.24.1"
+    "babel-preset-es2015": "^6.24.1",
+    "webpack": "^5.33.2",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
   }
 }
