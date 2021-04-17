@@ -55,28 +55,47 @@ a {
 .menu__list-link:focus {
   color: blue;
 }
-/* .header {
-  display: flex;
-  align-items: center;
-} */
+
 .header .header__logo {
   margin-right: 70px;
 }
 
-.menu {
-  display: flex;
-  align-items: center;
-}
 .menu__item:not(:last-child) {
   margin-right: 40px;
 }
 
-.menu__list {
+.menu-box {
+  /* display: flex; */
+  background-color: rgb(141, 142, 156);
+}
+.contact-box {
+  outline: 1px solid rgb(79, 80, 5);
   display: flex;
 }
+.menu__list {
+  /* outline: 3px solid rgb(79, 80, 5); */
+  display: flex;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 
+.up__menu {
+  display: flex;
+}
 .header .address {
   margin-left: auto;
   margin-right: 40px;
 }
-/* ==========Секция why me=================== */
+/* ==========Секция hero=================== */
+.hero__title {
+  text-align: center;
+}
+.hero {
+  background-image: url(/images/IMG_2365.jpg);
+  height: 70vh;
+}
+/* ==========Секция under-hero=================== */
+.icon-list__under-hero .icon-list {
+  display: flex;
+  justify-content: center;
+}
